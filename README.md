@@ -18,15 +18,15 @@ This project demonstrates reusable React components, component composition, stat
 
 ### Light Mode
 
-![Light Mode](./screenshots/light-mode.png)
+![Light Mode](./screenshots/light-mode.jpg)
 
 ### Dark Mode
 
-![Dark Mode](./screenshots/dark-mode.png)
+![Dark Mode](./screenshots/dark-mode.jpg)
 
 ### Notes & Editing
 
-![Notes](./screenshots/notes.png)
+![Notes](./screenshots/green-filter.jpg)
 
 ---
 
