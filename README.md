@@ -10,7 +10,7 @@ This project demonstrates reusable React components, component composition, stat
 
 ## 🚀 Live Demo
 
-[Add live demo link here]
+https://usman-notes-app.vercel.app/
 
 ---
 
