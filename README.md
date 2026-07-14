@@ -100,7 +100,7 @@ This demonstrates component composition and avoiding duplicated UI logic.
 # Installation
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Usman-Iqbal-5/Notes-App.git
 
 cd react-notes-app
 
