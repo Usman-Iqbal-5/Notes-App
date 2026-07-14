@@ -201,7 +201,6 @@ Used for managing:
 
 Used for handling side effects including:
 
-- Loading saved notes from localStorage
 - Saving notes when data changes
 - Persisting theme preferences
 - Synchronising React state with browser storage
