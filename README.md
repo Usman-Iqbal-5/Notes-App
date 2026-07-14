@@ -1,70 +1,118 @@
-# Getting Started with Create React App
+# React Notes App 📝
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fully interactive notes management application built with React.
 
-## Available Scripts
+Users can create, edit, delete, filter, and export notes while switching between light and dark themes.
 
-In the project directory, you can run:
+This project demonstrates reusable React components, component composition, state management, React hooks, and client-side data persistence.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Live Demo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+https://usman-notes-app.vercel.app/
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📸 Screenshots
 
-### `npm run build`
+### Light Mode
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Light Mode](./screenshots/light-mode.jpeg)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Dark Mode
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Dark Mode](./screenshots/dark-mode.jpeg)
 
-### `npm run eject`
+### Notes & Editing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Notes](./screenshots/green-filter.jpeg)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Features
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Create, edit, delete and view notes
+- Add note title, content and colour selection
+- Filter notes by colour:
+  - Yellow
+  - Orange
+  - Green
+- Download notes as PDF
+- Light/dark mode toggle
+- Save notes and theme preference using localStorage
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Technical Highlights
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## React Development
 
-### Code Splitting
+Built using:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- JSX
+- Functional components
+- Props
+- Children prop
+- `useState`
+- `useEffect`
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Component Architecture
 
-### Making a Progressive Web App
+The application uses reusable components including:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Note cards
+- Forms
+- Filters
+- Modal components
+- Theme controls
 
-### Advanced Configuration
+A reusable modal component uses the `children` prop and is shared across:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Adding new notes
+- Editing notes
+- Viewing full note details
 
-### Deployment
+This demonstrates component composition and avoiding duplicated UI logic.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## State & Data Persistence
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- React state manages notes, forms, filters, modal visibility, and themes
+- `localStorage` persists notes and user preferences
+- Browser APIs are used for client-side functionality
+
+---
+
+# Technologies
+
+- React
+- JavaScript (ES6+)
+- JSX
+- CSS
+- Create React App
+
+---
+
+# Installation
+
+```bash
+git clone <repository-url>
+
+cd react-notes-app
+
+npm install
+
+npm start
+```
+
+---
+
+# 👨‍💻 Author
+
+Your Name: Usman Iqbal
+
+GitHub: https://github.com/Usman-Iqbal-5
