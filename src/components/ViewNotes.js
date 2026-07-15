@@ -5,6 +5,7 @@ function ViewNotes({
   onSelectFullNote,
   onSelectEditNote,
   onDeleteNote,
+  darkMode
 }) {
   return notes.length !== 0 ? (
     <ul className="notes-container">
@@ -21,7 +22,7 @@ function ViewNotes({
       })}
     </ul>
   ) : (
-    <div className="no-notes">No notes yet</div>
+    <div style={{color: darkMode ? "white" : "black"}} className="no-notes">No notes yet</div>
   );
 }
 

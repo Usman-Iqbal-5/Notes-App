@@ -141,6 +141,7 @@ function App() {
         onSelectFullNote={handleSelectedFullNote}
         onSelectEditNote={handleSelectedEditNote}
         onDeleteNote={handleDeleteNote}
+        darkMode={darkMode}
       />
       <HiddenPDFLayout notes={filteredNotes} />
 
