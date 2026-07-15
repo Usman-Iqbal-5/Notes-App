@@ -41,6 +41,7 @@ https://usman-notes-app.vercel.app/
 - Download notes as PDF
 - Light/dark mode toggle
 - Save notes and theme preference using localStorage
+- Reponsive design - mobile first approach
 
 ---
 
@@ -83,7 +84,6 @@ This demonstrates component composition and avoiding duplicated UI logic.
 
 - React state manages notes, forms, filters, modal visibility, and themes
 - `localStorage` persists notes and user preferences
-- Browser APIs are used for client-side functionality
 
 ---
 
