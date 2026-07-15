@@ -41,7 +41,7 @@ https://usman-notes-app.vercel.app/
 - Download notes as PDF
 - Light/dark mode toggle
 - Save notes and theme preference using localStorage
-- reponsive design - mobile first approach
+- Reponsive design - mobile first approach
 
 ---
 
