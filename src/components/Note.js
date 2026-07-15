@@ -2,7 +2,7 @@ import EditIcon from "./EditIcon";
 import DeleteIcon from "./DeleteIcon";
 
 function Note({ note, onSelectFullNote, onSelectEditNote, onDeleteNote }) {
-  const previewContentLength = 10;
+  const previewContentLength = 8;
   const previewContent = note.content
     .split(" ")
     .slice(0, previewContentLength)

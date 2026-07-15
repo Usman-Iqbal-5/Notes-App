@@ -25,7 +25,9 @@ function Modal({
         >
           Close
         </Button>
+      <div className="modal-content" >
         {children}
+      </div>
       </div>
     </div>
   );
