@@ -24,7 +24,7 @@ https://usman-notes-app.vercel.app/
 
 ![Dark Mode](./screenshots/dark-mode.jpeg)
 
-### Notes & Editing
+### Filtering By Green Notes
 
 ![Notes](./screenshots/green-filter.jpeg)
 
