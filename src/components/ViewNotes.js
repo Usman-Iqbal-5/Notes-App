@@ -8,6 +8,7 @@ function ViewNotes({
   darkMode
 }) {
   return notes.length !== 0 ? (
+    <section className="notes-present">
     <ul className="notes-container">
       {notes.map((note) => {
         return (
@@ -21,6 +22,7 @@ function ViewNotes({
         );
       })}
     </ul>
+    </section>
   ) : (
     <div style={{color: darkMode ? "white" : "black"}} className="no-notes">No notes yet</div>
   );
