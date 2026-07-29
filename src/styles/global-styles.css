@@ -175,7 +175,7 @@ form .form-title,
 form .form-content {
   display: block;
   margin-bottom: 0.25rem;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
 }
 
 form input[type="text"] {
@@ -206,7 +206,7 @@ form button {
   width: 40%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   margin-bottom: 1rem;
 }
 
@@ -214,6 +214,7 @@ form button {
   display: block;
   cursor: default;
   margin-bottom: 0.25rem;
+  margin-top:1rem;
 }
 
 .radio-button-container label {
