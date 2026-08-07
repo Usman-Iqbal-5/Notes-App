@@ -1,7 +1,7 @@
 import Button from "./Button"
 
 function Modal({
-  buttonColor = "red",
+  buttonColor = "black",
   onOpenModal,
   children,
   bgColor = "rgb(235, 152, 0)",

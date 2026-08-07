@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import downloadPDF from "./utils/exportPDF.js";
-import Header from "./components/Header.js"
+import Header from "./components/Header.js";
 import ThemeToggle from "./components/ThemeToggle.js";
 import Footer from "./components/Footer.js";
 import FilterBar from "./components/FilterBar.js";
@@ -105,6 +105,7 @@ function App() {
       </Header>
       {newNoteFormOpen && (
         <Modal
+          buttonColor="rgb(235, 152, 0)"
           onOpenModal={handleClosingNewNoteForm}
           bgColor="#0f172b"
           color="white"
@@ -115,7 +116,7 @@ function App() {
       )}
       {fullNoteOpen && notes.length > 0 && (
         <Modal
-        buttonColor="black"
+          buttonColor="black"
           onOpenModal={handleOpenFullNote}
           bgColor={selectedFullNote.color}
           width="45"
@@ -125,8 +126,9 @@ function App() {
       )}
       {editFormOpen && (
         <Modal
+          buttonColor="rgb(235, 152, 0)"
           onOpenModal={handleOpenEditForm}
-          bgColor= "#0f172b"
+          bgColor="#0f172b"
           color="white"
           width="35"
         >
@@ -156,6 +158,5 @@ function App() {
     </div>
   );
 }
-
 
 export default App;
