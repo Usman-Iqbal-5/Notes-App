@@ -20,11 +20,11 @@ function Note({ note, onSelectFullNote, onSelectEditNote, onDeleteNote }) {
   return (
     <li style={{ backgroundColor: note.color }} className="note">
       <div className="title-container">
-        <div>
+        <h2>
           {note.title.split(" ").length > 1
             ? `${previewTitle} ...`
             : previewTitle}
-        </div>
+        </h2>
         <div className="icon-container">
           <EditIcon onHandleEditNote={handleEditNote} />
           <DeleteIcon onHandleDeleteNote={handleDeleteNote} />

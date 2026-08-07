@@ -282,6 +282,7 @@ input[type="radio"] {
   color: rgb(45, 45, 45);
   height: 40vh;
   width: 100%;
+  font-size: 0.85rem;
   min-width: 220px;
   max-width: 240px;
   max-height: 300px;
@@ -296,6 +297,11 @@ input[type="radio"] {
   transition: all 0.1s ease;
   display: flex;
   flex-direction: column;
+}
+
+.note h2{
+  font-size: 0.95rem;
+  font-weight: 600;
 }
 
 .note .title-container {
