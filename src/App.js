@@ -106,7 +106,7 @@ function App() {
       {newNoteFormOpen && (
         <Modal
           onOpenModal={handleClosingNewNoteForm}
-          bgColor="rgb(45, 45, 45)"
+          bgColor="#1d293d"
           color="white"
           width="35"
         >
@@ -125,7 +125,7 @@ function App() {
       {editFormOpen && (
         <Modal
           onOpenModal={handleOpenEditForm}
-          bgColor="rgb(45, 45, 45)"
+          bgColor= "#1d293d"
           color="white"
           width="35"
         >

@@ -28,7 +28,7 @@ function EditForm({ note, onUpdatingEditedNote, darkMode }) {
   }
 
   const formInputStyles = {
-    backgroundColor: "rgb(66, 66, 66)",
+    backgroundColor: "#314158",
     color: "white",
   };
 
