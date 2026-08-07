@@ -106,7 +106,7 @@ function App() {
       {newNoteFormOpen && (
         <Modal
           onOpenModal={handleClosingNewNoteForm}
-          bgColor="#1d293d"
+          bgColor="#0f172b"
           color="white"
           width="35"
         >
@@ -115,6 +115,7 @@ function App() {
       )}
       {fullNoteOpen && notes.length > 0 && (
         <Modal
+        buttonColor="black"
           onOpenModal={handleOpenFullNote}
           bgColor={selectedFullNote.color}
           width="45"
@@ -125,7 +126,7 @@ function App() {
       {editFormOpen && (
         <Modal
           onOpenModal={handleOpenEditForm}
-          bgColor= "#1d293d"
+          bgColor= "#0f172b"
           color="white"
           width="35"
         >

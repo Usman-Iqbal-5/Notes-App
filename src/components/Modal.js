@@ -1,6 +1,7 @@
 import Button from "./Button"
 
 function Modal({
+  buttonColor = "red",
   onOpenModal,
   children,
   bgColor = "rgb(235, 152, 0)",
@@ -17,7 +18,7 @@ function Modal({
     <div className="overlay">
       <div style={modalStyle} className="modal">
         <Button
-          bgColor="black"
+          bgColor={buttonColor}
           color="white"
           onClick={() => {
             onOpenModal(false);

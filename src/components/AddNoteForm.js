@@ -7,7 +7,7 @@ function AddNoteForm({ onAddNote, darkMode }) {
   const [color, setColor] = useState("orange");
 
   const formInputStyles = {
-    backgroundColor: "#314158",
+    backgroundColor: "#1d293d",
     color: "white",
   };
 

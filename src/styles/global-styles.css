@@ -86,7 +86,7 @@ header {
   display: flex;
   justify-content: space-between;
   background-color: #0f172b ;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 1rem;
   margin-top: 1rem;
   width: 95vw;
@@ -108,8 +108,8 @@ header .button-container {
 footer {
   padding: 5rem;
   margin-bottom: 1rem;
-  background-color: #0f172b ;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #0f172b;
+  border: 1px solid rgba(255, 255, 255, 0.2);
   width: 95vw;
   border-radius: 20px;
   display: flex;
@@ -357,7 +357,7 @@ svg:nth-of-type(2) {
 }
 
 .modal {
-  width: 90vw;
+  width: var(--modal-width);
   height: 90vh;
   max-height: 500px;
   padding: 1.5rem;
