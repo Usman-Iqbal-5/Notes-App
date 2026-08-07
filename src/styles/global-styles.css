@@ -310,17 +310,16 @@ input[type="radio"] {
 
 .icon-container svg:nth-of-type(1),
 svg:nth-of-type(2) {
+  cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .icon-container svg:nth-of-type(1):hover {
-  cursor: pointer;
-  color: #fff;
+  color: #0541c2;
 }
 
 .icon-container svg:nth-of-type(2):hover {
-  cursor: pointer;
-  color: red;
+  color: #dc0000;
 }
 
 .note .read-more {
