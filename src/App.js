@@ -104,39 +104,59 @@ function App() {
         <ThemeToggle darkMode={darkMode} onDarkMode={handleSettingTheme} />
       </Header>
       {newNoteFormOpen && (
-        <Modal
-          buttonColor="rgb(235, 152, 0)"
-          onOpenModal={handleClosingNewNoteForm}
-          bgColor="#0f172b"
-          color="white"
-          width="35"
-        >
-          <AddNoteForm onAddNote={handelAddingNote} darkMode={darkMode} />
+        <Modal bgColor="#0f172b" color="white" width="35">
+          <Button
+            bgColor="rgb(235, 152, 0)"
+            color="black"
+            onClick={() => {
+              handleClosingNewNoteForm(false);
+            }}
+          >
+            Close
+          </Button>
+          <div className="modal-content">
+            <AddNoteForm onAddNote={handelAddingNote} darkMode={darkMode} />
+          </div>
         </Modal>
       )}
       {fullNoteOpen && notes.length > 0 && (
-        <Modal
-          buttonColor="black"
-          onOpenModal={handleOpenFullNote}
-          bgColor={selectedFullNote.color}
-          width="45"
-        >
-          <FullNote selectedFullNote={selectedFullNote} darkMode={darkMode} />
+        <Modal buttonColor="black" bgColor={selectedFullNote.color} width="45">
+          <Button
+            bgColor="black"
+            color="white"
+            onClick={() => {
+              handleOpenFullNote(false);
+            }}
+          >
+            Close
+          </Button>
+          <div className="modal-content">
+            <FullNote selectedFullNote={selectedFullNote} darkMode={darkMode} />
+          </div>
         </Modal>
       )}
       {editFormOpen && (
         <Modal
-          buttonColor="rgb(235, 152, 0)"
-          onOpenModal={handleOpenEditForm}
           bgColor="#0f172b"
           color="white"
           width="35"
         >
-          <EditForm
-            note={selectedEditNote}
-            onUpdatingEditedNote={handleUpdatingEditedNote}
-            darkMode={darkMode}
-          />
+          <Button
+            bgColor="rgb(235, 152, 0)"
+            color="black"
+            onClick={() => {
+              handleOpenEditForm(false);
+            }}
+          >
+            Close
+          </Button>
+          <div className="modal-content">
+            <EditForm
+              note={selectedEditNote}
+              onUpdatingEditedNote={handleUpdatingEditedNote}
+              darkMode={darkMode}
+            />
+          </div>
         </Modal>
       )}
       <ViewNotes
