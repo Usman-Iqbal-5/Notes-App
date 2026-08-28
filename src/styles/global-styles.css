@@ -363,7 +363,7 @@ svg:nth-of-type(2) {
 
 .modal {
   width: 90vw;
-  max-width: 900px;
+  max-width: 600px;
   height: 90vh;
   max-height: 500px;
   padding: 1.5rem;
