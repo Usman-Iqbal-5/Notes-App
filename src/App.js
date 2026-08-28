@@ -104,7 +104,7 @@ function App() {
         <ThemeToggle darkMode={darkMode} onDarkMode={handleSettingTheme} />
       </Header>
       {newNoteFormOpen && (
-        <Modal bgColor="#0f172b" color="white" width="35">
+        <Modal bgColor="#0f172b" color="white" width="20">
           <Button
             bgColor="rgb(235, 152, 0)"
             color="black"
@@ -120,7 +120,7 @@ function App() {
         </Modal>
       )}
       {fullNoteOpen && notes.length > 0 && (
-        <Modal buttonColor="black" bgColor={selectedFullNote.color} width="45">
+        <Modal buttonColor="black" bgColor={selectedFullNote.color} width="35">
           <Button
             bgColor="black"
             color="white"
@@ -136,11 +136,7 @@ function App() {
         </Modal>
       )}
       {editFormOpen && (
-        <Modal
-          bgColor="#0f172b"
-          color="white"
-          width="35"
-        >
+        <Modal bgColor="#0f172b" color="white" width="20">
           <Button
             bgColor="rgb(235, 152, 0)"
             color="black"
